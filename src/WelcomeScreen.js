@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './WelcomeScreen.css';
 
 const WelcomeScreen = () => {
-  const text = "WELCOME TO AWS TRAINING NITIN SANJAY IBRAHIM";
+  const text = "WELCOME TO AWS TRAINING Team";
   const [displayText, setDisplayText] = useState('');
 
   useEffect(() => {

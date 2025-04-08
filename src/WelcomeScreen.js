@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './WelcomeScreen.css';
 
 const WelcomeScreen = () => {
+<<<<<<< HEAD
   const text = "HI! THIS PAGE IS FOR THE AWS ";
+=======
+  const text = "HI! THIS PAGE IS FOR THE AWS thelisanjayhiasdfgfdsasdfdsd";
+>>>>>>> 0fc6fbb010a7aea1b90e3f619fdb0b10a3ad30a2
   const [displayText, setDisplayText] = useState('');
 
   useEffect(() => {
